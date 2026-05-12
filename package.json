@@ -1,0 +1,21 @@
+{
+  "name": "playwright-xcrawl-proxy",
+  "version": "1.0.0",
+  "description": "Playwright plugin for XCrawl Proxy — automatic IP rotation for browser automation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": ["playwright", "xcrawl", "proxy", "scraper", "browser-automation"],
+  "license": "MIT"
+}
